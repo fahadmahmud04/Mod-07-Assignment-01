@@ -314,7 +314,7 @@ textarea{
     justify-content: space-around;
     padding: 0px 50px;
     gap: ;
-    width: 100%;
+    
 }
     
     .foot-img{
@@ -322,4 +322,7 @@ textarea{
         align-items: center;
         justify-content: space-around;
         gap: 20px;
+    }
+    .foot-img a img{
+        width: 30px;
     }
