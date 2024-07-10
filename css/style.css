@@ -46,6 +46,7 @@ footer {
     border-radius: 8px;
     border: none;
     cursor: pointer;
+    font-size: 14px;
 }
 
 .wh-btn {
@@ -55,10 +56,17 @@ footer {
     border-radius: 8px;
     border: 1px solid #0d1321;
     cursor: pointer;
+    font-size: 14px;
+}
+
+.wh-learn-btn {
+    padding: 10px 15px;
+    border-radius: 0;
+    background-color: #fff;
 }
 
 section {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 /* ----Header Part styles start------ */
@@ -71,7 +79,10 @@ header nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 125px;
+    padding: 10px 125px 20px 125px;
+}
+header nav h3{
+    font-size: 22px;
 }
 
 /* hero section styles */
@@ -88,27 +99,78 @@ header nav {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    padding: 40px 195px;
-    gap: 10px;
+    padding: 20px 195px 40px 195px;
+    /* gap: 10px; */
 }
 
 .hero-info .hero-title {
-    margin: 24px 0px;
+    margin: 20px 0px 15px;
     color: #0d1321;
     font-size: 44px;
-    /* font-weight: 800; */
-    line-height: 68px;
+    font-weight: 800;
+    line-height: 60px;
     text-align: center;
 }
 
 .hero-info .hero-desc {
-    margin: 24px 0px;
+    margin: 15px 12.5% 30px;
 }
 
 /* ------main part designs-------- */
 main {
+    margin: auto;
     width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* why dev section designs here */
+.why-dev {
+    padding: 80px 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 
 }
-/* why dev section designs here */
 
+.why-dev-info {
+    text-align: center;
+    padding: 0px 40px 20px;
+}
+
+.reason {
+    background-color: #fff;
+    padding: 45px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.reason-info {
+    width: 55%;
+}
+
+.reason .reason-info-title {
+    font-size: 18px;
+    line-height: 30px;
+    color: #0d1321;
+    opacity: 0.7;
+    margin: 24px 0px;
+}
+.reason-info p{
+    font-size: 12px;
+    margin: 10px 0px 24px;
+    line-height: 25px;
+}
+
+.reason-img {
+    width: 40%;
+}
