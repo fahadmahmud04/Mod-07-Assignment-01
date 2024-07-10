@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* imported fonts */
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Azeret Mono", monospace;
+}
+
+/* Global or shared Properties */
+footer,
+.why-dev {
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.02);
+}
+
+footer {
+    width: 100%;
+}
+
+.secondary-color {
+    color: #0d1321;
+    opacity: 0.8;
+}
+
+.section-title-h2 {
+    color: #0d1321;
+    font-size: 28px;
+    /* font-weight: 800; */
+    line-height: 37px;
+    text-align: center;
+    margin: 24px 0px;
+}
+
+.info-desc {
+    font-size: 14.5px;
+    line-height: 25px;
+}
+
+.btn {
+    color: #fff;
+    background-color: #0d1321;
+    padding: 20px 22px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.wh-btn {
+    padding: 15px 22px;
+    color: #0d1321;
+    opacity: 0.8;
+    border-radius: 8px;
+    border: 1px solid #0d1321;
+    cursor: pointer;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+/* ----Header Part styles start------ */
+header {
+    width: 100%;
+}
+
+/* nav styles */
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 125px;
+}
+
+/* hero section styles */
+.hero {
+    background-image: url('../assets/Hero-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero .hero-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 195px;
+    gap: 10px;
+}
+
+.hero-info .hero-title {
+    margin: 24px 0px;
+    color: #0d1321;
+    font-size: 44px;
+    /* font-weight: 800; */
+    line-height: 68px;
+    text-align: center;
+}
+
+.hero-info .hero-desc {
+    margin: 24px 0px;
+}
+
+/* ------main part designs-------- */
+main {
+    width: 80%;
+
+}
+/* why dev section designs here */
+
