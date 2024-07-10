@@ -37,6 +37,7 @@ footer {
 .info-desc {
     font-size: 14.5px;
     line-height: 25px;
+    opacity: 0.8;
 }
 
 .btn {
@@ -81,11 +82,13 @@ header nav {
     justify-content: space-between;
     padding: 10px 125px 20px 125px;
 }
-header nav h3{
+
+header nav h3 {
     font-size: 22px;
 }
 
 /* hero section styles */
+
 .hero {
     background-image: url('../assets/Hero-bg.png');
     background-position: center;
@@ -127,6 +130,7 @@ main {
 }
 
 /* why dev section designs here */
+
 .why-dev {
     padding: 80px 90px;
     display: flex;
@@ -165,7 +169,8 @@ main {
     opacity: 0.7;
     margin: 24px 0px;
 }
-.reason-info p{
+
+.reason-info p {
     font-size: 12px;
     margin: 10px 0px 24px;
     line-height: 25px;
@@ -173,4 +178,95 @@ main {
 
 .reason-img {
     width: 40%;
+}
+
+.why-dev div:nth-of-type(3) {
+    flex-direction: row-reverse;
+}
+
+/* My inspiration section styles here */
+.inspiration {}
+
+.inspiration-info {
+    padding: 0px 115px;
+    text-align: center;
+}
+
+.inspiration-media {
+    margin: 50px 0px;
+    padding: 20px;
+    border: 1px solid #d5d6d8;
+    border-radius: 8px;
+    height: 65vh;
+    text-align: center;
+}
+
+.inspiration-media iframe {
+    border-radius: 10px;
+}
+
+/* Current Section styles */
+.c-target-info {
+    padding: 0px 115px;
+    text-align: center;
+}
+
+.c-target-skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 80px 0px 50px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 260px;
+    border-radius: 12px;
+    padding: 20px;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+    /* box-shadow: ; */
+}
+
+.skill:nth-of-type(1) {
+    background: rgba(255, 76, 30, 0.05);
+
+}
+
+.skill:nth-of-type(2) {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.skill:nth-of-type(3) {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.skill img {
+    float: left;
+}
+
+.skill .skill-title {
+    margin: 20px 0px 20px 5px;
+}
+
+.skill-desc {
+    margin: 10px 0px 30px 5px;
+    color: #0d1321;
+    opacity: 0.7;
+    font-size: 12px;
+
+}
+
+.skill a {
+
+    margin-left: 5px;
+    text-decoration: underline;
+    color: #0d1321;
+    font-weight: 700;
 }
