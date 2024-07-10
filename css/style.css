@@ -270,3 +270,56 @@ main {
     color: #0d1321;
     font-weight: 700;
 }
+
+/* Support section styles */
+.support {
+    background-image: url('../assets/handshake.jpg');
+    /* background-image: url('../assets/handshake.jpg'),rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 65px 50px;
+
+
+}
+
+.support-info h2,
+.support-info p {
+    /* padding: ; */
+    color: #fff;
+    text-align: center;
+}
+.support form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    gap: 30px;
+}
+textarea{
+    padding:10px 0px 0px 0px;
+    margin-right: ;
+    border: none;
+}
+.input-btn{
+    padding: 15px 20px;
+    font-weight: bold;
+}
+/* footer styles */
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 50px;
+    gap: ;
+    width: 100%;
+}
+    
+    .foot-img{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px;
+    }
